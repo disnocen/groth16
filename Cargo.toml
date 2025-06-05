@@ -79,6 +79,10 @@ incremental = true
 debug-assertions = true
 debug = true
 
+[[example]]
+name = "square"
+path = "examples/square.rs"
+required-features = ["std"]
 
 # [patch.crates-io]
 # ark-ff = { git = "https://github.com/arkworks-rs/algebra/" }
